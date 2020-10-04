@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 INCLUDE_DIRECTORIES(../../../Glitter/Vendor/glad/include/
                     ../../../Glitter/Vendor/glfw/include/
                     ../../../Glitter/Vendor/glm/
+                    ../../../Glitter/Vendor/stb/
                     include)
 
 set(PROJECT_HEADERS 
