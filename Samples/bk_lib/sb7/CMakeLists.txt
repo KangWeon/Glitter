@@ -1,5 +1,7 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.17)
 project(sb7)
+
+set(CMAKE_CXX_STANDARD 17)
 
 #option(GLFW_BUILD_DOCS OFF)
 #option(GLFW_BUILD_EXAMPLES OFF)
