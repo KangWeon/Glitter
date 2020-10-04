@@ -18,6 +18,10 @@ option(BUILD_OPENGL3_DEMOS OFF)
 option(BUILD_UNIT_TESTS OFF)
 add_subdirectory(Glitter/Vendor/bullet)
 
+add_subdirectory(Samples/bk_lib/ingredients)
+add_subdirectory(Samples/bk_lib/sb7)
+add_subdirectory(Samples/bk_lib/vermilion)
+
 if(MSVC)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /W4")
 else()
