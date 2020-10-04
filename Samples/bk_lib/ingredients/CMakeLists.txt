@@ -4,7 +4,7 @@ project(ingredients)
 INCLUDE_DIRECTORIES(../../../Glitter/Vendor/glad/include/
                     ../../../Glitter/Vendor/glfw/include/
                     ../../../Glitter/Vendor/glm/
-                    )
+                    include)
 
 set(PROJECT_HEADERS 
     include/aabb.h
@@ -47,4 +47,4 @@ set(PROJECT_SOURCES
     src/torus.cpp)
 
 add_library(${PROJECT_NAME} ${PROJECT_SOURCES} ${PROJECT_HEADERS})
-target_link_libraries(${PROJECT_NAME} ${GLFW_LIBRARIES})
+target_link_libraries(${PROJECT_NAME} glfw)
